@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F23BA521C2B0C2E005E222C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F23BA511C2B0C2E005E222C /* main.m */; };
+		3F23BA551C2B0C2E005E222C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F23BA541C2B0C2E005E222C /* AppDelegate.m */; };
+		3F23BA581C2B0C2E005E222C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F23BA571C2B0C2E005E222C /* ViewController.m */; };
+		3F23BA5B1C2B0C2E005E222C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA591C2B0C2E005E222C /* Main.storyboard */; };
+		3F23BA5D1C2B0C2E005E222C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA5C1C2B0C2E005E222C /* Assets.xcassets */; };
+		3F23BA601C2B0C2E005E222C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA5E1C2B0C2E005E222C /* LaunchScreen.storyboard */; };
+		3F23BA6B1C2B0C2E005E222C /* EarthGoAroundSunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F23BA6A1C2B0C2E005E222C /* EarthGoAroundSunTests.m */; };
+		3F23BA761C2B0C2E005E222C /* EarthGoAroundSunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F23BA751C2B0C2E005E222C /* EarthGoAroundSunUITests.m */; };
+		3F23BA8C1C2B0DEC005E222C /* earth3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA8B1C2B0DEC005E222C /* earth3.png */; settings = {ASSET_TAGS = (); }; };
+		3F23BA8E1C2B0DF2005E222C /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA8D1C2B0DF2005E222C /* sun.png */; settings = {ASSET_TAGS = (); }; };
+		3F23BA901C2B1686005E222C /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA8F1C2B1686005E222C /* moon.png */; settings = {ASSET_TAGS = (); }; };
+		3F23BA921C2B1E14005E222C /* Demons.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA911C2B1E14005E222C /* Demons.mp3 */; settings = {ASSET_TAGS = (); }; };
+		3F23BA941C2B1F51005E222C /* universe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA931C2B1F51005E222C /* universe.jpg */; settings = {ASSET_TAGS = (); }; };
+		3F23BA961C2B20EF005E222C /* universe1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F23BA951C2B20EF005E222C /* universe1.jpg */; settings = {ASSET_TAGS = (); }; };
+		3F3290111C2C5E09006FB3E6 /* mercury1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3290101C2C5E09006FB3E6 /* mercury1.png */; settings = {ASSET_TAGS = (); }; };
+		3F3290131C2C5E25006FB3E6 /* venus2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3290121C2C5E25006FB3E6 /* venus2.png */; settings = {ASSET_TAGS = (); }; };
+		3F3290151C2C5E3F006FB3E6 /* mars4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3290141C2C5E3F006FB3E6 /* mars4.png */; settings = {ASSET_TAGS = (); }; };
+		3F32901B1C2C5E9A006FB3E6 /* uranus7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F32901A1C2C5E9A006FB3E6 /* uranus7.png */; settings = {ASSET_TAGS = (); }; };
+		3F32901D1C2C5EB7006FB3E6 /* neptune8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F32901C1C2C5EB7006FB3E6 /* neptune8.png */; settings = {ASSET_TAGS = (); }; };
+		3F32901F1C2C5ED7006FB3E6 /* pluto9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F32901E1C2C5ED7006FB3E6 /* pluto9.png */; settings = {ASSET_TAGS = (); }; };
+		3F3290221C2C5F0F006FB3E6 /* Ceres.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3290201C2C5F0F006FB3E6 /* Ceres.png */; settings = {ASSET_TAGS = (); }; };
+		3F3290231C2C5F0F006FB3E6 /* Eris.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3290211C2C5F0F006FB3E6 /* Eris.png */; settings = {ASSET_TAGS = (); }; };
+		3FE0713D1C2CA3DF0084EF66 /* jupiter5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0713C1C2CA3DF0084EF66 /* jupiter5.png */; settings = {ASSET_TAGS = (); }; };
+		3FE0713F1C2CA4FD0084EF66 /* saturn6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0713E1C2CA4FD0084EF66 /* saturn6.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F23BA671C2B0C2E005E222C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F23BA451C2B0C2E005E222C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F23BA4C1C2B0C2E005E222C;
+			remoteInfo = EarthGoAroundSun;
+		};
+		3F23BA721C2B0C2E005E222C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F23BA451C2B0C2E005E222C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F23BA4C1C2B0C2E005E222C;
+			remoteInfo = EarthGoAroundSun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F23BA4D1C2B0C2E005E222C /* EarthGoAroundSun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthGoAroundSun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F23BA511C2B0C2E005E222C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F23BA531C2B0C2E005E222C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F23BA541C2B0C2E005E222C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F23BA561C2B0C2E005E222C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F23BA571C2B0C2E005E222C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F23BA5A1C2B0C2E005E222C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F23BA5C1C2B0C2E005E222C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F23BA5F1C2B0C2E005E222C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F23BA611C2B0C2E005E222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F23BA661C2B0C2E005E222C /* EarthGoAroundSunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthGoAroundSunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F23BA6A1C2B0C2E005E222C /* EarthGoAroundSunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthGoAroundSunTests.m; sourceTree = "<group>"; };
+		3F23BA6C1C2B0C2E005E222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F23BA711C2B0C2E005E222C /* EarthGoAroundSunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthGoAroundSunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F23BA751C2B0C2E005E222C /* EarthGoAroundSunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthGoAroundSunUITests.m; sourceTree = "<group>"; };
+		3F23BA771C2B0C2E005E222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F23BA8B1C2B0DEC005E222C /* earth3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth3.png; sourceTree = "<group>"; };
+		3F23BA8D1C2B0DF2005E222C /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		3F23BA8F1C2B1686005E222C /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		3F23BA911C2B1E14005E222C /* Demons.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Demons.mp3; sourceTree = "<group>"; };
+		3F23BA931C2B1F51005E222C /* universe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = universe.jpg; sourceTree = "<group>"; };
+		3F23BA951C2B20EF005E222C /* universe1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = universe1.jpg; sourceTree = "<group>"; };
+		3F3290101C2C5E09006FB3E6 /* mercury1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mercury1.png; sourceTree = "<group>"; };
+		3F3290121C2C5E25006FB3E6 /* venus2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venus2.png; sourceTree = "<group>"; };
+		3F3290141C2C5E3F006FB3E6 /* mars4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars4.png; sourceTree = "<group>"; };
+		3F32901A1C2C5E9A006FB3E6 /* uranus7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uranus7.png; sourceTree = "<group>"; };
+		3F32901C1C2C5EB7006FB3E6 /* neptune8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neptune8.png; sourceTree = "<group>"; };
+		3F32901E1C2C5ED7006FB3E6 /* pluto9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pluto9.png; sourceTree = "<group>"; };
+		3F3290201C2C5F0F006FB3E6 /* Ceres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ceres.png; sourceTree = "<group>"; };
+		3F3290211C2C5F0F006FB3E6 /* Eris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eris.png; sourceTree = "<group>"; };
+		3FE0713C1C2CA3DF0084EF66 /* jupiter5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jupiter5.png; sourceTree = "<group>"; };
+		3FE0713E1C2CA4FD0084EF66 /* saturn6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturn6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F23BA4A1C2B0C2E005E222C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23BA631C2B0C2E005E222C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23BA6E1C2B0C2E005E222C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F23BA441C2B0C2E005E222C = {
+			isa = PBXGroup;
+			children = (
+				3F23BA4F1C2B0C2E005E222C /* EarthGoAroundSun */,
+				3F23BA691C2B0C2E005E222C /* EarthGoAroundSunTests */,
+				3F23BA741C2B0C2E005E222C /* EarthGoAroundSunUITests */,
+				3F23BA4E1C2B0C2E005E222C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F23BA4E1C2B0C2E005E222C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F23BA4D1C2B0C2E005E222C /* EarthGoAroundSun.app */,
+				3F23BA661C2B0C2E005E222C /* EarthGoAroundSunTests.xctest */,
+				3F23BA711C2B0C2E005E222C /* EarthGoAroundSunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F23BA4F1C2B0C2E005E222C /* EarthGoAroundSun */ = {
+			isa = PBXGroup;
+			children = (
+				3F23BA531C2B0C2E005E222C /* AppDelegate.h */,
+				3F23BA541C2B0C2E005E222C /* AppDelegate.m */,
+				3F23BA561C2B0C2E005E222C /* ViewController.h */,
+				3F23BA571C2B0C2E005E222C /* ViewController.m */,
+				3F23BA931C2B1F51005E222C /* universe.jpg */,
+				3F23BA951C2B20EF005E222C /* universe1.jpg */,
+				3FE0713C1C2CA3DF0084EF66 /* jupiter5.png */,
+				3F3290141C2C5E3F006FB3E6 /* mars4.png */,
+				3F32901E1C2C5ED7006FB3E6 /* pluto9.png */,
+				3FE0713E1C2CA4FD0084EF66 /* saturn6.png */,
+				3F32901C1C2C5EB7006FB3E6 /* neptune8.png */,
+				3F3290201C2C5F0F006FB3E6 /* Ceres.png */,
+				3F3290211C2C5F0F006FB3E6 /* Eris.png */,
+				3F32901A1C2C5E9A006FB3E6 /* uranus7.png */,
+				3F3290121C2C5E25006FB3E6 /* venus2.png */,
+				3F3290101C2C5E09006FB3E6 /* mercury1.png */,
+				3F23BA8B1C2B0DEC005E222C /* earth3.png */,
+				3F23BA911C2B1E14005E222C /* Demons.mp3 */,
+				3F23BA8D1C2B0DF2005E222C /* sun.png */,
+				3F23BA8F1C2B1686005E222C /* moon.png */,
+				3F23BA591C2B0C2E005E222C /* Main.storyboard */,
+				3F23BA5C1C2B0C2E005E222C /* Assets.xcassets */,
+				3F23BA5E1C2B0C2E005E222C /* LaunchScreen.storyboard */,
+				3F23BA611C2B0C2E005E222C /* Info.plist */,
+				3F23BA501C2B0C2E005E222C /* Supporting Files */,
+			);
+			path = EarthGoAroundSun;
+			sourceTree = "<group>";
+		};
+		3F23BA501C2B0C2E005E222C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F23BA511C2B0C2E005E222C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F23BA691C2B0C2E005E222C /* EarthGoAroundSunTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F23BA6A1C2B0C2E005E222C /* EarthGoAroundSunTests.m */,
+				3F23BA6C1C2B0C2E005E222C /* Info.plist */,
+			);
+			path = EarthGoAroundSunTests;
+			sourceTree = "<group>";
+		};
+		3F23BA741C2B0C2E005E222C /* EarthGoAroundSunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F23BA751C2B0C2E005E222C /* EarthGoAroundSunUITests.m */,
+				3F23BA771C2B0C2E005E222C /* Info.plist */,
+			);
+			path = EarthGoAroundSunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F23BA4C1C2B0C2E005E222C /* EarthGoAroundSun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F23BA7A1C2B0C2E005E222C /* Build configuration list for PBXNativeTarget "EarthGoAroundSun" */;
+			buildPhases = (
+				3F23BA491C2B0C2E005E222C /* Sources */,
+				3F23BA4A1C2B0C2E005E222C /* Frameworks */,
+				3F23BA4B1C2B0C2E005E222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthGoAroundSun;
+			productName = EarthGoAroundSun;
+			productReference = 3F23BA4D1C2B0C2E005E222C /* EarthGoAroundSun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F23BA651C2B0C2E005E222C /* EarthGoAroundSunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F23BA7D1C2B0C2E005E222C /* Build configuration list for PBXNativeTarget "EarthGoAroundSunTests" */;
+			buildPhases = (
+				3F23BA621C2B0C2E005E222C /* Sources */,
+				3F23BA631C2B0C2E005E222C /* Frameworks */,
+				3F23BA641C2B0C2E005E222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F23BA681C2B0C2E005E222C /* PBXTargetDependency */,
+			);
+			name = EarthGoAroundSunTests;
+			productName = EarthGoAroundSunTests;
+			productReference = 3F23BA661C2B0C2E005E222C /* EarthGoAroundSunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F23BA701C2B0C2E005E222C /* EarthGoAroundSunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F23BA801C2B0C2E005E222C /* Build configuration list for PBXNativeTarget "EarthGoAroundSunUITests" */;
+			buildPhases = (
+				3F23BA6D1C2B0C2E005E222C /* Sources */,
+				3F23BA6E1C2B0C2E005E222C /* Frameworks */,
+				3F23BA6F1C2B0C2E005E222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F23BA731C2B0C2E005E222C /* PBXTargetDependency */,
+			);
+			name = EarthGoAroundSunUITests;
+			productName = EarthGoAroundSunUITests;
+			productReference = 3F23BA711C2B0C2E005E222C /* EarthGoAroundSunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F23BA451C2B0C2E005E222C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = dungdang;
+				TargetAttributes = {
+					3F23BA4C1C2B0C2E005E222C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3F23BA651C2B0C2E005E222C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3F23BA4C1C2B0C2E005E222C;
+					};
+					3F23BA701C2B0C2E005E222C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3F23BA4C1C2B0C2E005E222C;
+					};
+				};
+			};
+			buildConfigurationList = 3F23BA481C2B0C2E005E222C /* Build configuration list for PBXProject "EarthGoAroundSun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F23BA441C2B0C2E005E222C;
+			productRefGroup = 3F23BA4E1C2B0C2E005E222C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F23BA4C1C2B0C2E005E222C /* EarthGoAroundSun */,
+				3F23BA651C2B0C2E005E222C /* EarthGoAroundSunTests */,
+				3F23BA701C2B0C2E005E222C /* EarthGoAroundSunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F23BA4B1C2B0C2E005E222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE0713F1C2CA4FD0084EF66 /* saturn6.png in Resources */,
+				3F23BA8E1C2B0DF2005E222C /* sun.png in Resources */,
+				3F23BA601C2B0C2E005E222C /* LaunchScreen.storyboard in Resources */,
+				3F23BA901C2B1686005E222C /* moon.png in Resources */,
+				3F23BA921C2B1E14005E222C /* Demons.mp3 in Resources */,
+				3F3290231C2C5F0F006FB3E6 /* Eris.png in Resources */,
+				3F3290221C2C5F0F006FB3E6 /* Ceres.png in Resources */,
+				3F23BA5D1C2B0C2E005E222C /* Assets.xcassets in Resources */,
+				3F32901B1C2C5E9A006FB3E6 /* uranus7.png in Resources */,
+				3F23BA8C1C2B0DEC005E222C /* earth3.png in Resources */,
+				3F3290111C2C5E09006FB3E6 /* mercury1.png in Resources */,
+				3F3290131C2C5E25006FB3E6 /* venus2.png in Resources */,
+				3F23BA5B1C2B0C2E005E222C /* Main.storyboard in Resources */,
+				3F23BA961C2B20EF005E222C /* universe1.jpg in Resources */,
+				3F32901F1C2C5ED7006FB3E6 /* pluto9.png in Resources */,
+				3F3290151C2C5E3F006FB3E6 /* mars4.png in Resources */,
+				3F23BA941C2B1F51005E222C /* universe.jpg in Resources */,
+				3FE0713D1C2CA3DF0084EF66 /* jupiter5.png in Resources */,
+				3F32901D1C2C5EB7006FB3E6 /* neptune8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23BA641C2B0C2E005E222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23BA6F1C2B0C2E005E222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F23BA491C2B0C2E005E222C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F23BA581C2B0C2E005E222C /* ViewController.m in Sources */,
+				3F23BA551C2B0C2E005E222C /* AppDelegate.m in Sources */,
+				3F23BA521C2B0C2E005E222C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23BA621C2B0C2E005E222C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F23BA6B1C2B0C2E005E222C /* EarthGoAroundSunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23BA6D1C2B0C2E005E222C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F23BA761C2B0C2E005E222C /* EarthGoAroundSunUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F23BA681C2B0C2E005E222C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F23BA4C1C2B0C2E005E222C /* EarthGoAroundSun */;
+			targetProxy = 3F23BA671C2B0C2E005E222C /* PBXContainerItemProxy */;
+		};
+		3F23BA731C2B0C2E005E222C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F23BA4C1C2B0C2E005E222C /* EarthGoAroundSun */;
+			targetProxy = 3F23BA721C2B0C2E005E222C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F23BA591C2B0C2E005E222C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F23BA5A1C2B0C2E005E222C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F23BA5E1C2B0C2E005E222C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F23BA5F1C2B0C2E005E222C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F23BA781C2B0C2E005E222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F23BA791C2B0C2E005E222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F23BA7B1C2B0C2E005E222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarthGoAroundSun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techmaster.EarthGoAroundSun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F23BA7C1C2B0C2E005E222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarthGoAroundSun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techmaster.EarthGoAroundSun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F23BA7E1C2B0C2E005E222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthGoAroundSunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techmaster.EarthGoAroundSunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthGoAroundSun.app/EarthGoAroundSun";
+			};
+			name = Debug;
+		};
+		3F23BA7F1C2B0C2E005E222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthGoAroundSunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techmaster.EarthGoAroundSunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthGoAroundSun.app/EarthGoAroundSun";
+			};
+			name = Release;
+		};
+		3F23BA811C2B0C2E005E222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EarthGoAroundSunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techmaster.EarthGoAroundSunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EarthGoAroundSun;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F23BA821C2B0C2E005E222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EarthGoAroundSunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techmaster.EarthGoAroundSunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EarthGoAroundSun;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F23BA481C2B0C2E005E222C /* Build configuration list for PBXProject "EarthGoAroundSun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F23BA781C2B0C2E005E222C /* Debug */,
+				3F23BA791C2B0C2E005E222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F23BA7A1C2B0C2E005E222C /* Build configuration list for PBXNativeTarget "EarthGoAroundSun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F23BA7B1C2B0C2E005E222C /* Debug */,
+				3F23BA7C1C2B0C2E005E222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F23BA7D1C2B0C2E005E222C /* Build configuration list for PBXNativeTarget "EarthGoAroundSunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F23BA7E1C2B0C2E005E222C /* Debug */,
+				3F23BA7F1C2B0C2E005E222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F23BA801C2B0C2E005E222C /* Build configuration list for PBXNativeTarget "EarthGoAroundSunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F23BA811C2B0C2E005E222C /* Debug */,
+				3F23BA821C2B0C2E005E222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F23BA451C2B0C2E005E222C /* Project object */;
+}
